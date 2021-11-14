@@ -1,9 +1,9 @@
 package com.patterns.drugs.impl;
 
 import com.patterns.annotations.Treatment;
-import com.patterns.drugs.Therapy;
-import com.patterns.patient.Patient;
 import lombok.extern.slf4j.Slf4j;
+import org.corona.model.Patient;
+import org.corona.model.Therapy;
 
 /**
  * Коньяк

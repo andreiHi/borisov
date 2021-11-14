@@ -1,6 +1,6 @@
 package com.patterns.doctors;
 
-import com.patterns.patient.Patient;
+import org.corona.model.Patient;
 
 /**
  * Целитель, который может исцелять пациентов.
