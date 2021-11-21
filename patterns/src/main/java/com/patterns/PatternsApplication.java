@@ -1,6 +1,5 @@
 package com.patterns;
 
-import com.patterns.doctors.Healer;
 import com.patterns.doctors.impl.Priest;
 import com.patterns.doctors.impl.Witch;
 import lombok.RequiredArgsConstructor;

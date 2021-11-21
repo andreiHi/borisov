@@ -25,4 +25,9 @@ public class Priest implements Healer {
     public void heal(Patient patient) {
         outdatedTreatments.forEach(therapy -> therapy.apply(patient));
     }
+
+    @Override
+    public String getType() {
+        return Healer.FOLK;
+    }
 }

@@ -29,4 +29,9 @@ public class Witch implements Healer {
         log.info("Определяю лечение...");
         therapies.forEach(t -> t.apply(patient));
     }
+
+    @Override
+    public String getType() {
+        return Healer.TRADITIONAL;
+    }
 }

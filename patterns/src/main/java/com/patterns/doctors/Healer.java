@@ -12,4 +12,6 @@ public interface Healer {
     String TRADITIONAL = "traditional";
 
     void heal(Patient patient);
+
+    String getType();
 }
